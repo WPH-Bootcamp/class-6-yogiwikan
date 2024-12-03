@@ -15,5 +15,8 @@
       @warn 'Invalid color type or level';
       @return null;
     }
+  } @else {
+    @warn 'Invalid color type or level';
+    @return null;
   }
 }
